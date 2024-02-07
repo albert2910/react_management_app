@@ -20,6 +20,7 @@ function App() {
         content = <NoProjectSelected onStartAddProject={handleStartAddProject}/>
     }
 
+
     function handleStartAddProject() {
         setProjectsState(prevState => {
             return {
